@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighter.Word", "Highlighter.Word\Highlighter.Word.csproj", "{64466AF5-F5DA-4E9C-A4E6-2171AFD4CB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighter.Core", "Highlighter.Core\Highlighter.Core.csproj", "{D1390327-C845-4F1A-BA15-159BF019E24F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{32C1E3CF-B4A7-42D4-81C3-083FCABBC728}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighter.Excel", "Highlighter.Excel\Highlighter.Excel.csproj", "{53E5521D-C178-430C-91FC-17FA4309BD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighter.PowerPoint", "Highlighter.PowerPoint\Highlighter.PowerPoint.csproj", "{DC83BE6E-207F-48AE-B628-211B5944FA94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64466AF5-F5DA-4E9C-A4E6-2171AFD4CB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64466AF5-F5DA-4E9C-A4E6-2171AFD4CB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64466AF5-F5DA-4E9C-A4E6-2171AFD4CB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64466AF5-F5DA-4E9C-A4E6-2171AFD4CB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1390327-C845-4F1A-BA15-159BF019E24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1390327-C845-4F1A-BA15-159BF019E24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1390327-C845-4F1A-BA15-159BF019E24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1390327-C845-4F1A-BA15-159BF019E24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E5521D-C178-430C-91FC-17FA4309BD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E5521D-C178-430C-91FC-17FA4309BD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E5521D-C178-430C-91FC-17FA4309BD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E5521D-C178-430C-91FC-17FA4309BD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC83BE6E-207F-48AE-B628-211B5944FA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC83BE6E-207F-48AE-B628-211B5944FA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC83BE6E-207F-48AE-B628-211B5944FA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC83BE6E-207F-48AE-B628-211B5944FA94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<?xml version="1.0"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="Highlighter" label="Highlight">
+          <splitButton id="HighlightSplitButton">
+            <button id="HighlightButton" getLabel="GetButtonLabel" onAction="OnHighlightAction" />
+            <menu id="HighlightMenu">
+<# foreach (var x in Languages.Select((lang, i) => new {lang, i})) { #>
+              <button id="HighlightMenuItem_<#= x.i #>" label="<#= x.lang.Name #>" tag="<#= x.lang.Id #>" onAction="OnHighlightAction" />
+<# } #>
+            </menu>
+          </splitButton>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
